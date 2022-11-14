@@ -1,0 +1,10 @@
+[14-Nov-2022 09:47:02 America/Bogota] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\NOVARQ-STUDIO\frontend\modelos\visitas.modelo.php:84
+Stack trace:
+#0 C:\xampp\htdocs\NOVARQ-STUDIO\frontend\modelos\visitas.modelo.php(84): PDOStatement->execute()
+#1 C:\xampp\htdocs\NOVARQ-STUDIO\frontend\controladores\visitas.controlador.php(79): ModeloVisitas::mdlInsertarPais('visitaspaises', 'Japan', 1, 'JP')
+#2 C:\xampp\htdocs\NOVARQ-STUDIO\frontend\vistas\modulos\visitas.php(23): ControladorVisitas::ctrEnviarIp('153.205.198.22', 'Japan', 'JP')
+#3 C:\xampp\htdocs\NOVARQ-STUDIO\frontend\vistas\plantilla.php(284): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\NOVARQ-STUDIO\frontend\controladores\plantilla.controlador.php(11): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\NOVARQ-STUDIO\frontend\index.php(32): ControladorPlantilla->plantilla()
+#6 {main}
+  thrown in C:\xampp\htdocs\NOVARQ-STUDIO\frontend\modelos\visitas.modelo.php on line 84

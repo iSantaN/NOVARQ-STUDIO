@@ -1,0 +1,7 @@
+Usuario Backend:
+	ID:mpisfil@hotmail.com
+	Contraseña: admin123
+
+Cuenta PayPal:
+	ID: iSantaN2@hotmail.com
+	Contraseña: iSantaN2256

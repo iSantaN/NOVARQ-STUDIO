@@ -1,0 +1,20 @@
+[14-Nov-2022 15:46:00 Europe/Berlin] PHP Warning:  Undefined variable $directorio in C:\xampp\htdocs\NOVARQ-STUDIO\backend\controladores\administradores.controlador.php on line 253
+[14-Nov-2022 15:46:01 Europe/Berlin] PHP Warning:  mkdir(): Invalid argument in C:\xampp\htdocs\NOVARQ-STUDIO\backend\controladores\administradores.controlador.php on line 253
+[14-Nov-2022 15:46:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function imagecreatefromjpeg() in C:\xampp\htdocs\NOVARQ-STUDIO\backend\controladores\administradores.controlador.php:271
+Stack trace:
+#0 C:\xampp\htdocs\NOVARQ-STUDIO\backend\vistas\modulos\perfiles.php(415): ControladorAdministradores::ctrEditarPerfil()
+#1 C:\xampp\htdocs\NOVARQ-STUDIO\backend\vistas\plantilla.php(181): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\NOVARQ-STUDIO\backend\controladores\plantilla.controlador.php(8): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\NOVARQ-STUDIO\backend\index.php(45): ControladorPlantilla->plantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\NOVARQ-STUDIO\backend\controladores\administradores.controlador.php on line 271
+[14-Nov-2022 15:46:09 Europe/Berlin] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\NOVARQ-STUDIO\backend\vistas\modulos\inicio\grafico-visitas.php on line 56
+[14-Nov-2022 15:46:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\NOVARQ-STUDIO\backend\vistas\modulos\inicio\grafico-visitas.php on line 56
+[14-Nov-2022 15:46:09 Europe/Berlin] PHP Fatal error:  Uncaught DivisionByZeroError: Division by zero in C:\xampp\htdocs\NOVARQ-STUDIO\backend\vistas\modulos\inicio\grafico-visitas.php:56
+Stack trace:
+#0 C:\xampp\htdocs\NOVARQ-STUDIO\backend\vistas\modulos\visitas.php(28): include()
+#1 C:\xampp\htdocs\NOVARQ-STUDIO\backend\vistas\plantilla.php(181): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\NOVARQ-STUDIO\backend\controladores\plantilla.controlador.php(8): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\NOVARQ-STUDIO\backend\index.php(45): ControladorPlantilla->plantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\NOVARQ-STUDIO\backend\vistas\modulos\inicio\grafico-visitas.php on line 56
